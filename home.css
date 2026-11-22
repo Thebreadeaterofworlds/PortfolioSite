@@ -1,0 +1,50 @@
+
+.site{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+    background-color: rgb(231, 222, 220);
+}
+
+
+.circular_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  display:block;
+  margin: auto;
+  margin-top: 1vh;
+}
+.circular_image img{
+  width:100%;
+}
+
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #a265bb;
+   
+    
+}
+
+footer h2{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.Info{
+    height: 50vh;
+    width: 40vw;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Info{
+    font-size: 2rem;
+}

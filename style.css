@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: #a265bb;
+    padding: 2vh;
+    text-align: center;
+}
+
+
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #42044e;
+}
+ul.topnav li a {
+  display: block;
+  color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #b594c4;
+  color: black;
+}
+
+
+.Info{
+    height: 50vh;
+    width: 40vw;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Info{
+    font-size: 2rem;
+}
+
+
+
