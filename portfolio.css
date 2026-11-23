@@ -1,35 +1,31 @@
-.site{
+.site {
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: minmax(0, 1fr);
-    background-color: rgb(231, 222, 220);
+    background-color: var(--color5);
 }
 
-footer{
-    height: 10vh;
-    width: 100%;
-    background-color: #a265bb;
-}
 
-footer h2{
-    font-size: 1.5rem;
-    padding-left: 1rem;
-}
 
-.box{
-    border: solid 5px black;
+.box {
     height: 35vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+    padding: 2rem;
 }
 
-.box img:hover{
-   width: 35vh;
-   
-}
-
-.cogumi img{
+.box img {
     width: 15vw;
+}
+
+.box img:hover {
+    /* width: 17vw; */
+    box-shadow: 10px 5px 30px black;
+    transition: box-shadow 0.5s;
+}
+
+.cogumi img {
+    width: 20vw;
 }

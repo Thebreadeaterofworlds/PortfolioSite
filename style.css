@@ -1,14 +1,29 @@
-body{
-    margin: 0;
-    padding: 0;
+:root {
+  --color1: #500071;
+  --color2: #8A2A78;
+  --color3: #290044;
+  --color4: #ffff;
+  --color5: rgb(231, 222, 220);
 }
 
 
 
-header{
-    background-color: #a265bb;
-    padding: 2vh;
-    text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sora;
+}
+
+
+
+header {
+  background-color: var(--color1);
+  text-align: center;
+  color: var(--color4);
+}
+
+header h1 {
+  font-size: 3rem;
 }
 
 
@@ -18,34 +33,50 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #42044e;
+  background-color: var(--color3);
 }
+
 ul.topnav li a {
   display: block;
-  color: #ffffff;
+  color: var(--color4);
   padding: 14px 16px;
   text-decoration: none;
 }
 
 /* Change color on hover */
 ul.topnav li a:hover {
-  background-color: #b594c4;
+  background-color: var(--color2);
   color: black;
 }
 
 
-.Info{
-    height: 50vh;
-    width: 40vw;
-    display: block;
-    margin: auto;
-    overflow: hidden;
-    text-align: center;
+.Info {
+  height: 50vh;
+  width: 40vw;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
 }
 
-.Info{
-    font-size: 2rem;
+.Info {
+  font-size: 2rem;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+  background-color: var(--color1);
+  color: var(--color4);
+}
+
+footer h2 {
+  font-size: 1.5rem;
+  padding-left: 1rem;
 }
 
 
-
+@font-face {
+  font-family: Sora;
+  src: url(assets/Sora/Sora-VariableFont_wght.ttf);
+}
