@@ -11,15 +11,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Sora;
+  font-family: Alegreya;
 }
+
+
 
 
 
 header {
   background-color: var(--color1);
   text-align: center;
-  color: var(--color4);
+  color: var(--color5);
+  font-family: Lucky;
 }
 
 header h1 {
@@ -77,6 +80,11 @@ footer h2 {
 
 
 @font-face {
-  font-family: Sora;
-  src: url(assets/Sora/Sora-VariableFont_wght.ttf);
+  font-family: Lucky;
+  src: url(assets/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+  font-family: Alegreya;
+  src: url(assets/Alegreya_Sans_SC/AlegreyaSansSC-Black.ttf);
 }

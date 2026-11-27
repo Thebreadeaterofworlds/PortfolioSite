@@ -1,7 +1,7 @@
 .site {
     min-height: 100dvh;
     display: grid;
-    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-rows: auto auto auto 1fr 1fr auto;
     grid-template-columns: minmax(0, 1fr);
     background-color: var(--color5);
 }
@@ -22,10 +22,8 @@
 }
 
 
-
-
 .Info {
-    height: 50vh;
+    height: 30vh;
     width: 40vw;
     display: block;
     margin: auto;
@@ -35,4 +33,52 @@
 
 .Info {
     font-size: 2rem;
+}
+
+
+
+.talents {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+.talents h2 {
+    font-size: 30px;
+
+}
+
+.talents p {
+    font-size: 20px;
+}
+
+.talent1 {
+    box-shadow: 10px 10px 10px rgb(190, 185, 183);
+    background-color: rgb(206, 163, 214);
+    width: 20vw;
+    height: 26vh;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.talent2 {
+    box-shadow: 10px 10px 10px rgb(190, 185, 183);
+    background-color: rgb(206, 163, 214);
+    width: 20vw;
+    height: 26vh;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.talent3 {
+    box-shadow: 10px 10px 10px rgb(190, 185, 183);
+    background-color: rgb(206, 163, 214);
+    width: 20vw;
+    height: 26vh;
+    border-radius: 20px;
+    padding: 10px;
+
 }
